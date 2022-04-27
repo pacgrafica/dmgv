@@ -1,0 +1,64 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.verde{
+	background-color: chartreuse;
+	height: 6rem
+
+}
+
+
+.morado{
+	background-color: purple;
+	height: 30rem
+}
+
+.naranja{
+	background-color: orange;
+	height: 35rem
+}
+
+.rojo{
+	background-color: red;
+	height: 35rem
+}
+
+.rosado{
+	background-color: pink;
+	height: 30%
+}
+
+.amarillo{
+	background-color: yellow;
+	height: 70%
+}
+
+.azul{
+	background-color: blue;
+	height: 10rem;
+}
+
+.rojoOscuro{
+	background-color: darkred;
+	height: 10rem;
+}
+
+/*Aca comienza mi consulta de medios*/
+
+@media only screen and (max-width: 600px) {
+  	.morado{
+		background-color: darkred;
+		height: 30rem
+	}
+	.naranja{
+		background-color: chartreuse;
+		height: 35rem
+	}
+}
