@@ -31,7 +31,8 @@ body{
 }
 
 .rosado{
-	background-color: pink;
+	background-color: #edf1f7;
+	border-style: none;
 	height: 30%
 }
 
