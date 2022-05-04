@@ -46,8 +46,11 @@ body{
 }
 
 .rojoOscuro{
-	background-color: darkred;
+	background-color: transparent;
 	height: 10rem;
+}
+img{
+	height: 100%;
 }
 
 /*Aca comienza mi consulta de medios*/
