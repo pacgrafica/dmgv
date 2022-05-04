@@ -50,6 +50,30 @@ body{
 	height: 10rem;
 }
 
+.descuentos{
+	background-color: white;
+}
+
+.por10, .por20, .por60, .por90{
+	height: 20rem;
+	
+}
+
+.por10{
+	background-color: grey;
+	
+}
+
+.por20{
+	background-color: white;
+}
+.por60{
+	background-color: grey;
+}
+.por90{
+	background-color:white;
+}
+
 /*Aca comienza mi consulta de medios*/
 
 @media only screen and (max-width: 600px) {
